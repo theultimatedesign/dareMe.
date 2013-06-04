@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C9F7D9A175DBDD7000E5E21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7D99175DBDD7000E5E21 /* UIKit.framework */; };
+		7C9F7D9C175DBDD7000E5E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7D9B175DBDD7000E5E21 /* Foundation.framework */; };
+		7C9F7D9E175DBDD7000E5E21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7D9D175DBDD7000E5E21 /* CoreGraphics.framework */; };
+		7C9F7DA4175DBDD7000E5E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7DA2175DBDD7000E5E21 /* InfoPlist.strings */; };
+		7C9F7DA6175DBDD7000E5E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F7DA5175DBDD7000E5E21 /* main.m */; };
+		7C9F7DAA175DBDD7000E5E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F7DA9175DBDD7000E5E21 /* AppDelegate.m */; };
+		7C9F7DAD175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7DAB175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard */; };
+		7C9F7DB0175DBDD7000E5E21 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7DAE175DBDD7000E5E21 /* MainStoryboard_iPad.storyboard */; };
+		7C9F7DB3175DBDD7000E5E21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F7DB2175DBDD7000E5E21 /* ViewController.m */; };
+		7C9F7DBB175DBDD7000E5E21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7DBA175DBDD7000E5E21 /* SenTestingKit.framework */; };
+		7C9F7DBC175DBDD7000E5E21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7D99175DBDD7000E5E21 /* UIKit.framework */; };
+		7C9F7DBD175DBDD7000E5E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9F7D9B175DBDD7000E5E21 /* Foundation.framework */; };
+		7C9F7DC5175DBDD7000E5E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7DC3175DBDD7000E5E21 /* InfoPlist.strings */; };
+		7C9F7DC8175DBDD7000E5E21 /* dareMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F7DC7175DBDD7000E5E21 /* dareMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C9F7DBE175DBDD7000E5E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C9F7D8C175DBDD7000E5E21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C9F7D94175DBDD7000E5E21;
+			remoteInfo = dareMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C9F7D95175DBDD7000E5E21 /* dareMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dareMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9F7D99175DBDD7000E5E21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C9F7D9B175DBDD7000E5E21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C9F7D9D175DBDD7000E5E21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C9F7DA1175DBDD7000E5E21 /* dareMe-Info.plist */ = {isa = PBXFileReference; path = "dareMe-Info.plist"; sourceTree = "<group>"; };
+		7C9F7DA3175DBDD7000E5E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9F7DA5175DBDD7000E5E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C9F7DA7175DBDD7000E5E21 /* dareMe-Prefix.pch */ = {isa = PBXFileReference; path = "dareMe-Prefix.pch"; sourceTree = "<group>"; };
+		7C9F7DA8175DBDD7000E5E21 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C9F7DA9175DBDD7000E5E21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C9F7DAC175DBDD7000E5E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7C9F7DAF175DBDD7000E5E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7C9F7DB1175DBDD7000E5E21 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7C9F7DB2175DBDD7000E5E21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C9F7DB9175DBDD7000E5E21 /* dareMeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dareMeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9F7DBA175DBDD7000E5E21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7C9F7DC2175DBDD7000E5E21 /* dareMeTests-Info.plist */ = {isa = PBXFileReference; path = "dareMeTests-Info.plist"; sourceTree = "<group>"; };
+		7C9F7DC4175DBDD7000E5E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C9F7DC6175DBDD7000E5E21 /* dareMeTests.h */ = {isa = PBXFileReference; path = dareMeTests.h; sourceTree = "<group>"; };
+		7C9F7DC7175DBDD7000E5E21 /* dareMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dareMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C9F7D92175DBDD7000E5E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7D9A175DBDD7000E5E21 /* UIKit.framework in Frameworks */,
+				7C9F7D9C175DBDD7000E5E21 /* Foundation.framework in Frameworks */,
+				7C9F7D9E175DBDD7000E5E21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9F7DB5175DBDD7000E5E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7DBB175DBDD7000E5E21 /* SenTestingKit.framework in Frameworks */,
+				7C9F7DBC175DBDD7000E5E21 /* UIKit.framework in Frameworks */,
+				7C9F7DBD175DBDD7000E5E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C9F7D8A175DBDD7000E5E21 = {
+			isa = PBXGroup;
+			children = (
+				7C9F7D9F175DBDD7000E5E21 /* dareMe */,
+				7C9F7DC0175DBDD7000E5E21 /* dareMeTests */,
+				7C9F7D98175DBDD7000E5E21 /* Frameworks */,
+				7C9F7D96175DBDD7000E5E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C9F7D96175DBDD7000E5E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7D95175DBDD7000E5E21 /* dareMe.app */,
+				7C9F7DB9175DBDD7000E5E21 /* dareMeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C9F7D98175DBDD7000E5E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7D99175DBDD7000E5E21 /* UIKit.framework */,
+				7C9F7D9B175DBDD7000E5E21 /* Foundation.framework */,
+				7C9F7D9D175DBDD7000E5E21 /* CoreGraphics.framework */,
+				7C9F7DBA175DBDD7000E5E21 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9F7D9F175DBDD7000E5E21 /* dareMe */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7DA8175DBDD7000E5E21 /* AppDelegate.h */,
+				7C9F7DA9175DBDD7000E5E21 /* AppDelegate.m */,
+				7C9F7DAB175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard */,
+				7C9F7DAE175DBDD7000E5E21 /* MainStoryboard_iPad.storyboard */,
+				7C9F7DB1175DBDD7000E5E21 /* ViewController.h */,
+				7C9F7DB2175DBDD7000E5E21 /* ViewController.m */,
+				7C9F7DA0175DBDD7000E5E21 /* Supporting Files */,
+			);
+			path = dareMe;
+			sourceTree = "<group>";
+		};
+		7C9F7DA0175DBDD7000E5E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7DA1175DBDD7000E5E21 /* dareMe-Info.plist */,
+				7C9F7DA2175DBDD7000E5E21 /* InfoPlist.strings */,
+				7C9F7DA5175DBDD7000E5E21 /* main.m */,
+				7C9F7DA7175DBDD7000E5E21 /* dareMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C9F7DC0175DBDD7000E5E21 /* dareMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7DC6175DBDD7000E5E21 /* dareMeTests.h */,
+				7C9F7DC7175DBDD7000E5E21 /* dareMeTests.m */,
+				7C9F7DC1175DBDD7000E5E21 /* Supporting Files */,
+			);
+			path = dareMeTests;
+			sourceTree = "<group>";
+		};
+		7C9F7DC1175DBDD7000E5E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F7DC2175DBDD7000E5E21 /* dareMeTests-Info.plist */,
+				7C9F7DC3175DBDD7000E5E21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C9F7D94175DBDD7000E5E21 /* dareMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9F7DCB175DBDD7000E5E21 /* Build configuration list for PBXNativeTarget "dareMe" */;
+			buildPhases = (
+				7C9F7D91175DBDD7000E5E21 /* Sources */,
+				7C9F7D92175DBDD7000E5E21 /* Frameworks */,
+				7C9F7D93175DBDD7000E5E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dareMe;
+			productName = dareMe;
+			productReference = 7C9F7D95175DBDD7000E5E21 /* dareMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C9F7DB8175DBDD7000E5E21 /* dareMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C9F7DCE175DBDD7000E5E21 /* Build configuration list for PBXNativeTarget "dareMeTests" */;
+			buildPhases = (
+				7C9F7DB4175DBDD7000E5E21 /* Sources */,
+				7C9F7DB5175DBDD7000E5E21 /* Frameworks */,
+				7C9F7DB6175DBDD7000E5E21 /* Resources */,
+				7C9F7DB7175DBDD7000E5E21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C9F7DBF175DBDD7000E5E21 /* PBXTargetDependency */,
+			);
+			name = dareMeTests;
+			productName = dareMeTests;
+			productReference = 7C9F7DB9175DBDD7000E5E21 /* dareMeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C9F7D8C175DBDD7000E5E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = theultimatedesign;
+			};
+			buildConfigurationList = 7C9F7D8F175DBDD7000E5E21 /* Build configuration list for PBXProject "dareMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C9F7D8A175DBDD7000E5E21;
+			productRefGroup = 7C9F7D96175DBDD7000E5E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C9F7D94175DBDD7000E5E21 /* dareMe */,
+				7C9F7DB8175DBDD7000E5E21 /* dareMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C9F7D93175DBDD7000E5E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7DA4175DBDD7000E5E21 /* InfoPlist.strings in Resources */,
+				7C9F7DAD175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7C9F7DB0175DBDD7000E5E21 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9F7DB6175DBDD7000E5E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7DC5175DBDD7000E5E21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C9F7DB7175DBDD7000E5E21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C9F7D91175DBDD7000E5E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7DA6175DBDD7000E5E21 /* main.m in Sources */,
+				7C9F7DAA175DBDD7000E5E21 /* AppDelegate.m in Sources */,
+				7C9F7DB3175DBDD7000E5E21 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9F7DB4175DBDD7000E5E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9F7DC8175DBDD7000E5E21 /* dareMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C9F7DBF175DBDD7000E5E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C9F7D94175DBDD7000E5E21 /* dareMe */;
+			targetProxy = 7C9F7DBE175DBDD7000E5E21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C9F7DA2175DBDD7000E5E21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9F7DA3175DBDD7000E5E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C9F7DAB175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9F7DAC175DBDD7000E5E21 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7C9F7DAE175DBDD7000E5E21 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9F7DAF175DBDD7000E5E21 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7C9F7DC3175DBDD7000E5E21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9F7DC4175DBDD7000E5E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C9F7DC9175DBDD7000E5E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C9F7DCA175DBDD7000E5E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C9F7DCC175DBDD7000E5E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dareMe/dareMe-Prefix.pch";
+				INFOPLIST_FILE = "dareMe/dareMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C9F7DCD175DBDD7000E5E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dareMe/dareMe-Prefix.pch";
+				INFOPLIST_FILE = "dareMe/dareMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7C9F7DCF175DBDD7000E5E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dareMe.app/dareMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dareMe/dareMe-Prefix.pch";
+				INFOPLIST_FILE = "dareMeTests/dareMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7C9F7DD0175DBDD7000E5E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/dareMe.app/dareMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dareMe/dareMe-Prefix.pch";
+				INFOPLIST_FILE = "dareMeTests/dareMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C9F7D8F175DBDD7000E5E21 /* Build configuration list for PBXProject "dareMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9F7DC9175DBDD7000E5E21 /* Debug */,
+				7C9F7DCA175DBDD7000E5E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C9F7DCB175DBDD7000E5E21 /* Build configuration list for PBXNativeTarget "dareMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9F7DCC175DBDD7000E5E21 /* Debug */,
+				7C9F7DCD175DBDD7000E5E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7C9F7DCE175DBDD7000E5E21 /* Build configuration list for PBXNativeTarget "dareMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9F7DCF175DBDD7000E5E21 /* Debug */,
+				7C9F7DD0175DBDD7000E5E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C9F7D8C175DBDD7000E5E21 /* Project object */;
+}
