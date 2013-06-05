@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<dirinfo>
+<files>
+<item key='bg.png20130603232257' />
+<item key='bg@2x.png20130603232235' />
+<item key='btn-menu.png20130429144854' />
+<item key='btn-menu@2x.png20130429144854' />
+<item key='btn-next.png20130604161424' />
+<item key='btn-next@2x.png20130604161320' />
+<item key='btn-social.png20130603233538' />
+<item key='btn-social@2x.png20130603233523' />
+<item key='btn-viewYourDares.png20130603233247' />
+<item key='btn-viewYourDares@2x.png20130603233236' />
+<item key='chooseFriend.png20130604231219' />
+<item key='chooseFriend@2x.png20130604231207' />
+<item key='create-step1.png20130604124717' />
+<item key='create-step1@2x.png20130604124744' />
+<item key='create-step2.png20130604162243' />
+<item key='create-step2@2x.png20130604162207' />
+<item key='create-step3.png20130604234806' />
+<item key='create-step3@2x.png20130604234755' />
+<item key='CustomNavBG.png20130604000720' />
+<item key='CustomNavBG@2x.png20130604000711' />
+<item key='dareMe20130603231655' />
+<item key='dareMe.xcodeproj20130603231655' />
+<item key='dareMeTests20130603231655' />
+<item key='Default.png20130429144854' />
+<item key='Default@2x.png20130429144854' />
+<item key='fb-import.png20130429144854' />
+<item key='fb-import@2x.png20130429144854' />
+<item key='icon.png20130429144854' />
+<item key='icon@2x.png20130509175343' />
+<item key='step1-text.png20130604125445' />
+<item key='step1-text@2x.png20130604125431' />
+</files>
+</dirinfo>
