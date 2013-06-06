@@ -11,5 +11,6 @@
 @interface chooseFriend : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *clostBtn;
 - (IBAction)closeBtn:(id)sender;
+- (IBAction)closeBtnCC:(id)sender;
 
 @end

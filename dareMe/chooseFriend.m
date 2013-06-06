@@ -63,4 +63,8 @@
 - (IBAction)closeBtn:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)closeBtnCC:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
