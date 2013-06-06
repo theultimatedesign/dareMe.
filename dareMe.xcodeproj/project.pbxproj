@@ -19,6 +19,7 @@
 		7C73FAE8175FDD7F009CAD06 /* yourDaresList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FAE4175FDD7F009CAD06 /* yourDaresList@2x.png */; };
 		7C73FAEF176032A4009CAD06 /* create-step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FAED176032A4009CAD06 /* create-step1.png */; };
 		7C73FAF0176032A4009CAD06 /* create-step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FAEE176032A4009CAD06 /* create-step1@2x.png */; };
+		7C73FAF41760389F009CAD06 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C73FAF31760389F009CAD06 /* DescriptionViewController.m */; };
 		7C870AB6175F0E9200BE9754 /* chooseFriend.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C870AB4175F0E9200BE9754 /* chooseFriend.png */; };
 		7C870AB7175F0E9200BE9754 /* chooseFriend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C870AB5175F0E9200BE9754 /* chooseFriend@2x.png */; };
 		7C870ABB175F12A600BE9754 /* chooseFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C870ABA175F12A600BE9754 /* chooseFriend.m */; };
@@ -97,6 +98,8 @@
 		7C73FAE4175FDD7F009CAD06 /* yourDaresList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yourDaresList@2x.png"; sourceTree = "<group>"; };
 		7C73FAED176032A4009CAD06 /* create-step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-step1.png"; sourceTree = "<group>"; };
 		7C73FAEE176032A4009CAD06 /* create-step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-step1@2x.png"; sourceTree = "<group>"; };
+		7C73FAF21760389F009CAD06 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		7C73FAF31760389F009CAD06 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
 		7C870AB4175F0E9200BE9754 /* chooseFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chooseFriend.png; sourceTree = "<group>"; };
 		7C870AB5175F0E9200BE9754 /* chooseFriend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooseFriend@2x.png"; sourceTree = "<group>"; };
 		7C870AB9175F12A600BE9754 /* chooseFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chooseFriend.h; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 				7C9F7DA0175DBDD7000E5E21 /* Supporting Files */,
 				7C9F7DFE175DC8CF000E5E21 /* CustomNavBar.h */,
 				7C9F7DFF175DC8CF000E5E21 /* CustomNavBar.m */,
+				7C73FAF21760389F009CAD06 /* DescriptionViewController.h */,
+				7C73FAF31760389F009CAD06 /* DescriptionViewController.m */,
 			);
 			path = dareMe;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 				7C9F7DB3175DBDD7000E5E21 /* ViewController.m in Sources */,
 				7C9F7E00175DC8CF000E5E21 /* CustomNavBar.m in Sources */,
 				7C870ABB175F12A600BE9754 /* chooseFriend.m in Sources */,
+				7C73FAF41760389F009CAD06 /* DescriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

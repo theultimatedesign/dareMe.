@@ -8,7 +8,7 @@
         <scene sceneID="686-YM-mAn">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0K-2A-BgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController title="Step1" id="TEM-Aa-KQ9" sceneMemberID="viewController">
+                <viewController title="Step1" id="TEM-Aa-KQ9" customClass="DescriptionViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B9y-iw-MmJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,17 +52,20 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="aoT-Iy-DG5">
-                                <rect key="frame" x="15" y="115" width="290" height="140"/>
+                                <rect key="frame" x="15" y="109" width="290" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.60392156860000001" green="0.65098039220000004" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="next"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="v4G-Ew-Oim"/>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="aoT-Iy-DG5" id="3jB-AN-ysp"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-78" y="-428"/>
@@ -486,6 +489,12 @@
     <classes>
         <class className="CustomNavBar" superclassName="UINavigationBar">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomNavBar.h"/>
+        </class>
+        <class className="DescriptionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescriptionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="descriptionTextView" candidateClass="UITextView"/>
+            </relationships>
         </class>
         <class className="chooseFriend" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/chooseFriend.h"/>
