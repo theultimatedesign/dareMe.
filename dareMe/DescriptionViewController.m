@@ -33,4 +33,25 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    //NSLog(@"ShouldBeginEditing");
+    
+    if(textView == descriptionTextView)
+    {
+        [descriptionTextView resignFirstResponder]; 
+    }
+    
+    return TRUE;
+}
+- (BOOL) textView: (UITextView*) textView
+shouldChangeTextInRange: (NSRange) range
+  replacementText: (NSString*) text
+{
+    if ([text isEqualToString:@"\n"]) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
 @end

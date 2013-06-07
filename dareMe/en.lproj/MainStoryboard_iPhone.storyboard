@@ -240,15 +240,53 @@
                                     <segue destination="gbl-YF-Fk5" kind="push" id="tUa-R7-zyM"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="yourDaresList.png" id="H7o-Rn-ZQ8">
-                                <rect key="frame" x="0.0" y="101" width="320" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HPw-zq-jtY">
                                 <rect key="frame" x="0.0" y="50" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="btn-yourDaresList.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jfJ-aT-aTF" kind="modal" id="VTW-oc-zil"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gah-ZZ-1Ue">
+                                <rect key="frame" x="0.0" y="101" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="btn-yourDaresListPending.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0FF-ed-ONx" kind="modal" id="9S4-WV-SDw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XUw-pu-P1h">
+                                <rect key="frame" x="0.0" y="152" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="btn-yourDaresListExpired.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GLn-7h-Kgd">
+                                <rect key="frame" x="0.0" y="203" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="btn-youChallenged.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -325,6 +363,87 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-78" y="782"/>
+        </scene>
+        <scene sceneID="XrB-Df-ktN">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qfe-ea-kVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Accepted" id="0FF-ed-ONx" customClass="acceptedDareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fCJ-12-Og4">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg.png" id="zGE-m2-uzP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dare-accepted.png" id="ke4-sU-ous">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mm3-EX-Q4p">
+                                <rect key="frame" x="280" y="10" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="btn-close.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeAcceptDareViewController:" destination="jfJ-aT-aTF" eventType="touchDown" id="zuX-By-4q1"/>
+                                    <action selector="closeAcceptedDare:" destination="0FF-ed-ONx" eventType="touchDown" id="hGK-ne-bSX"/>
+                                    <action selector="closeBtn:" destination="Pzn-V7-Tkf" eventType="touchDown" id="rE2-q0-b1W"/>
+                                    <action selector="closeBtnCC:" destination="Shl-QX-kgy" eventType="touchDown" id="GnX-tb-x6v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-71" y="1927"/>
+        </scene>
+        <scene sceneID="U9E-XP-AGL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ECv-b4-L7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController title="Accept Dare" id="jfJ-aT-aTF" customClass="acceptDareViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PgH-WY-DfK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bg.png" id="ybB-ba-lqo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="dare-accept.png" id="7kR-B0-3Ok">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kKL-hO-Rm0">
+                                <rect key="frame" x="280" y="10" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="btn-close.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeAcceptDareViewController:" destination="jfJ-aT-aTF" eventType="touchDown" id="J15-i2-M0g"/>
+                                    <action selector="closeBtn:" destination="Pzn-V7-Tkf" eventType="touchDown" id="W2D-ec-2A4"/>
+                                    <action selector="closeBtnCC:" destination="Shl-QX-kgy" eventType="touchDown" id="swA-Zf-FKa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-78" y="1356"/>
         </scene>
         <scene sceneID="ykj-fM-Zzo">
             <objects>
@@ -475,36 +594,21 @@
         <image name="btn-next.png" width="230" height="50"/>
         <image name="btn-social.png" width="320" height="40"/>
         <image name="btn-viewYourDares.png" width="275" height="150"/>
+        <image name="btn-youChallenged.png" width="320" height="50"/>
         <image name="btn-yourDaresList.png" width="320" height="50"/>
+        <image name="btn-yourDaresListExpired.png" width="320" height="50"/>
+        <image name="btn-yourDaresListPending.png" width="320" height="50"/>
         <image name="chooseFriend.png" width="290" height="45"/>
         <image name="create-step1.png" width="320" height="130"/>
         <image name="create-step2.png" width="320" height="130"/>
         <image name="create-step3.png" width="320" height="130"/>
         <image name="credit-card.png" width="320" height="130"/>
         <image name="credit-cardExp.png" width="320" height="15"/>
+        <image name="dare-accept.png" width="320" height="480"/>
+        <image name="dare-accepted.png" width="320" height="568"/>
         <image name="fb-import.png" width="290" height="45"/>
         <image name="yourDares.png" width="320" height="40"/>
-        <image name="yourDaresList.png" width="320" height="200"/>
     </resources>
-    <classes>
-        <class className="CustomNavBar" superclassName="UINavigationBar">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomNavBar.h"/>
-        </class>
-        <class className="DescriptionViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescriptionViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="descriptionTextView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="chooseFriend" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/chooseFriend.h"/>
-            <relationships>
-                <relationship kind="action" name="closeBtn:"/>
-                <relationship kind="action" name="closeBtnCC:"/>
-                <relationship kind="outlet" name="clostBtn" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

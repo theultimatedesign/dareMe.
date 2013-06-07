@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C02A89D17612B820034F794 /* btn-yourDaresListPending.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A89B17612B820034F794 /* btn-yourDaresListPending.png */; };
+		7C02A89E17612B820034F794 /* btn-yourDaresListPending@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A89C17612B820034F794 /* btn-yourDaresListPending@2x.png */; };
+		7C02A8A417612C5C0034F794 /* btn-youChallenged.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A8A017612C5C0034F794 /* btn-youChallenged.png */; };
+		7C02A8A517612C5C0034F794 /* btn-youChallenged@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A8A117612C5C0034F794 /* btn-youChallenged@2x.png */; };
+		7C02A8A617612C5C0034F794 /* btn-yourDaresListExpired.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A8A217612C5C0034F794 /* btn-yourDaresListExpired.png */; };
+		7C02A8A717612C5C0034F794 /* btn-yourDaresListExpired@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C02A8A317612C5C0034F794 /* btn-yourDaresListExpired@2x.png */; };
+		7C5F0D4A17605086008F8F27 /* dare-accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F0D4817605086008F8F27 /* dare-accept.png */; };
+		7C5F0D4B17605086008F8F27 /* dare-accept@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F0D4917605086008F8F27 /* dare-accept@2x.png */; };
+		7C5F0D4F176051CA008F8F27 /* acceptDareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F0D4E176051CA008F8F27 /* acceptDareViewController.m */; };
 		7C73FAD3175FD0EF009CAD06 /* credit-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FACF175FD0EF009CAD06 /* credit-card.png */; };
 		7C73FAD4175FD0EF009CAD06 /* credit-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FAD0175FD0EF009CAD06 /* credit-card@2x.png */; };
 		7C73FAD5175FD0EF009CAD06 /* credit-cardExp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C73FAD1175FD0EF009CAD06 /* credit-cardExp.png */; };
@@ -73,6 +82,9 @@
 		7C9F7E23175EAC6B000E5E21 /* btn-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7E21175EAC6A000E5E21 /* btn-next@2x.png */; };
 		7C9F7E26175EAE60000E5E21 /* create-step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7E24175EAE60000E5E21 /* create-step2.png */; };
 		7C9F7E27175EAE60000E5E21 /* create-step2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9F7E25175EAE60000E5E21 /* create-step2@2x.png */; };
+		7CC666CF176135FA001B5982 /* dare-accepted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC666CD176135FA001B5982 /* dare-accepted.png */; };
+		7CC666D0176135FA001B5982 /* dare-accepted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC666CE176135FA001B5982 /* dare-accepted@2x.png */; };
+		7CC666D4176136B8001B5982 /* acceptedDareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC666D3176136B8001B5982 /* acceptedDareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +98,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C02A89B17612B820034F794 /* btn-yourDaresListPending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-yourDaresListPending.png"; sourceTree = "<group>"; };
+		7C02A89C17612B820034F794 /* btn-yourDaresListPending@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-yourDaresListPending@2x.png"; sourceTree = "<group>"; };
+		7C02A8A017612C5C0034F794 /* btn-youChallenged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-youChallenged.png"; sourceTree = "<group>"; };
+		7C02A8A117612C5C0034F794 /* btn-youChallenged@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-youChallenged@2x.png"; sourceTree = "<group>"; };
+		7C02A8A217612C5C0034F794 /* btn-yourDaresListExpired.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-yourDaresListExpired.png"; sourceTree = "<group>"; };
+		7C02A8A317612C5C0034F794 /* btn-yourDaresListExpired@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-yourDaresListExpired@2x.png"; sourceTree = "<group>"; };
+		7C5F0D4817605086008F8F27 /* dare-accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dare-accept.png"; sourceTree = "<group>"; };
+		7C5F0D4917605086008F8F27 /* dare-accept@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dare-accept@2x.png"; sourceTree = "<group>"; };
+		7C5F0D4D176051CA008F8F27 /* acceptDareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acceptDareViewController.h; sourceTree = "<group>"; };
+		7C5F0D4E176051CA008F8F27 /* acceptDareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acceptDareViewController.m; sourceTree = "<group>"; };
 		7C73FACF175FD0EF009CAD06 /* credit-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit-card.png"; sourceTree = "<group>"; };
 		7C73FAD0175FD0EF009CAD06 /* credit-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit-card@2x.png"; sourceTree = "<group>"; };
 		7C73FAD1175FD0EF009CAD06 /* credit-cardExp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credit-cardExp.png"; sourceTree = "<group>"; };
@@ -161,6 +183,10 @@
 		7C9F7E21175EAC6A000E5E21 /* btn-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-next@2x.png"; sourceTree = "<group>"; };
 		7C9F7E24175EAE60000E5E21 /* create-step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-step2.png"; sourceTree = "<group>"; };
 		7C9F7E25175EAE60000E5E21 /* create-step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-step2@2x.png"; sourceTree = "<group>"; };
+		7CC666CD176135FA001B5982 /* dare-accepted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dare-accepted.png"; sourceTree = "<group>"; };
+		7CC666CE176135FA001B5982 /* dare-accepted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dare-accepted@2x.png"; sourceTree = "<group>"; };
+		7CC666D2176136B8001B5982 /* acceptedDareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acceptedDareViewController.h; sourceTree = "<group>"; };
+		7CC666D3176136B8001B5982 /* acceptedDareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acceptedDareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,11 +219,15 @@
 				7C9F7DE7175DBF65000E5E21 /* bg.png */,
 				7C9F7DEF175DC19C000E5E21 /* btn-viewYourDares.png */,
 				7C9F7E05175E7C8B000E5E21 /* create-step1.png */,
+				7C5F0D4817605086008F8F27 /* dare-accept.png */,
+				7C5F0D4917605086008F8F27 /* dare-accept@2x.png */,
 				7C9F7E06175E7C8C000E5E21 /* create-step1@2x.png */,
 				7C73FAE1175FDD7F009CAD06 /* btn-yourDaresList.png */,
 				7C73FAE2175FDD7F009CAD06 /* btn-yourDaresList@2x.png */,
 				7C73FAED176032A4009CAD06 /* create-step1.png */,
 				7C73FAEE176032A4009CAD06 /* create-step1@2x.png */,
+				7CC666CD176135FA001B5982 /* dare-accepted.png */,
+				7CC666CE176135FA001B5982 /* dare-accepted@2x.png */,
 				7C73FAE3175FDD7F009CAD06 /* yourDaresList.png */,
 				7C73FAE4175FDD7F009CAD06 /* yourDaresList@2x.png */,
 				7C9F7E24175EAE60000E5E21 /* create-step2.png */,
@@ -205,6 +235,10 @@
 				7C73FADD175FDC79009CAD06 /* yourDares.png */,
 				7C73FADE175FDC79009CAD06 /* yourDares@2x.png */,
 				7C9F7DF0175DC19C000E5E21 /* btn-viewYourDares@2x.png */,
+				7C02A8A017612C5C0034F794 /* btn-youChallenged.png */,
+				7C02A8A117612C5C0034F794 /* btn-youChallenged@2x.png */,
+				7C02A8A217612C5C0034F794 /* btn-yourDaresListExpired.png */,
+				7C02A8A317612C5C0034F794 /* btn-yourDaresListExpired@2x.png */,
 				7C9F7DE8175DBF65000E5E21 /* bg@2x.png */,
 				7C9F7E09175E7D95000E5E21 /* step1-text.png */,
 				7C870AB4175F0E9200BE9754 /* chooseFriend.png */,
@@ -222,6 +256,8 @@
 				7C73FAD0175FD0EF009CAD06 /* credit-card@2x.png */,
 				7C73FAD1175FD0EF009CAD06 /* credit-cardExp.png */,
 				7C73FAD2175FD0EF009CAD06 /* credit-cardExp@2x.png */,
+				7C02A89B17612B820034F794 /* btn-yourDaresListPending.png */,
+				7C02A89C17612B820034F794 /* btn-yourDaresListPending@2x.png */,
 				7C870AC4175F1AE500BE9754 /* btn-create.png */,
 				7C870AC5175F1AE500BE9754 /* btn-create@2x.png */,
 				7C9F7DEB175DC056000E5E21 /* btn-menu.png */,
@@ -271,6 +307,10 @@
 			children = (
 				7C9F7DA8175DBDD7000E5E21 /* AppDelegate.h */,
 				7C870AB9175F12A600BE9754 /* chooseFriend.h */,
+				7CC666D2176136B8001B5982 /* acceptedDareViewController.h */,
+				7CC666D3176136B8001B5982 /* acceptedDareViewController.m */,
+				7C5F0D4D176051CA008F8F27 /* acceptDareViewController.h */,
+				7C5F0D4E176051CA008F8F27 /* acceptDareViewController.m */,
 				7C870ABA175F12A600BE9754 /* chooseFriend.m */,
 				7C9F7DA9175DBDD7000E5E21 /* AppDelegate.m */,
 				7C9F7DAB175DBDD7000E5E21 /* MainStoryboard_iPhone.storyboard */,
@@ -439,6 +479,16 @@
 				7C73FAE8175FDD7F009CAD06 /* yourDaresList@2x.png in Resources */,
 				7C73FAEF176032A4009CAD06 /* create-step1.png in Resources */,
 				7C73FAF0176032A4009CAD06 /* create-step1@2x.png in Resources */,
+				7C5F0D4A17605086008F8F27 /* dare-accept.png in Resources */,
+				7C5F0D4B17605086008F8F27 /* dare-accept@2x.png in Resources */,
+				7C02A89D17612B820034F794 /* btn-yourDaresListPending.png in Resources */,
+				7C02A89E17612B820034F794 /* btn-yourDaresListPending@2x.png in Resources */,
+				7C02A8A417612C5C0034F794 /* btn-youChallenged.png in Resources */,
+				7C02A8A517612C5C0034F794 /* btn-youChallenged@2x.png in Resources */,
+				7C02A8A617612C5C0034F794 /* btn-yourDaresListExpired.png in Resources */,
+				7C02A8A717612C5C0034F794 /* btn-yourDaresListExpired@2x.png in Resources */,
+				7CC666CF176135FA001B5982 /* dare-accepted.png in Resources */,
+				7CC666D0176135FA001B5982 /* dare-accepted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +529,8 @@
 				7C9F7E00175DC8CF000E5E21 /* CustomNavBar.m in Sources */,
 				7C870ABB175F12A600BE9754 /* chooseFriend.m in Sources */,
 				7C73FAF41760389F009CAD06 /* DescriptionViewController.m in Sources */,
+				7C5F0D4F176051CA008F8F27 /* acceptDareViewController.m in Sources */,
+				7CC666D4176136B8001B5982 /* acceptedDareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
